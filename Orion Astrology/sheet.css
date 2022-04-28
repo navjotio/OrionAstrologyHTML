@@ -1,0 +1,79 @@
+h1
+{
+	color: #fff;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 100px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 1;
+	text-align: center;
+	
+}
+.logos img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+figcaption
+{
+	text-align: center;
+	font-size: 80px;
+	font-family: Century Gothic;
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	
+}
+
+body
+{
+	background-image: url(earth.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;	
+}
+p
+{
+	display: block;
+	color: goldenrod;
+	font-size: 100px;
+}
+
+h2
+{
+	color: #fff;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 100px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 1px;
+	text-align: center;
+}
+
+hr
+{
+	border: 1px solid goldenrod;
+	border-radius: 5px;
+}
+
+table
+{
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th,td
+{
+	border: 1px solid #cecfd5;
+	padding: 10px 15px;
+	font-size: 50px;
+	color: goldenrod;
+	font-family: Century Gothic;
+	font-weight: bold;
+	
+}

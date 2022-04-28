@@ -1,0 +1,80 @@
+h1
+{
+	color: burlywood;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 120px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	line-height: 1;
+	text-align: center;
+}
+
+body
+{
+	background-image: url(1.png);
+	height: 100vh;
+	background-position: center-left;
+	background-size: leftwards;
+}
+
+fieldset
+{
+	max-width: 500px;
+	margin: 2rem auto;
+	border: 2px solid goldenrod;
+	padding: 2rem;
+	border-radius: 5px;
+	background: black;
+}
+
+#submitbtn
+{
+	border: 0;
+	background: black;
+	padding: .5rem;
+	color: goldenrod;
+	width: 25%;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+label
+{
+	color: goldenrod;
+	font-size: 40px;
+	
+}
+
+legend
+{
+	color: goldenrod;
+	font-size: 40px;
+}
+
+#resetbtn
+{
+	border: 0;
+	background: black;
+	padding: .5rem;
+	color: goldenrod;
+	width: 25%;
+	font-size: 20px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+input, textarea
+{
+	display: block;
+	width: 80%;
+	border: 2px solid whitesmoke;
+	padding: .25rem;
+	border-radius: 5px;
+}
+
+select, option
+{
+	display: block;
+	width: 25%;
+}
+

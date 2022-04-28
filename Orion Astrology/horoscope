@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+<head>
+<meta charset = "utf-8">
+<title>Your Horoscope</title>
+<link rel = "stylesheet" type = "text/css" href = "horosheet.css">
+</head>
+
+<body>
+<h1>Check your Horoscope</h1>
+<div class = "formStyle">
+	<form action = "https://www.ganeshaspeaks.com/horoscopes/daily-horoscope/">
+	<fieldset>
+	<legend><span class = "Number"></span>YOUR INFO</legend>
+	<label>First Name:</label><br/>
+	<input type = "text" name = "first name" placeholder ="firstname" required><br />
+	<label>Last Name:</label><br/>
+	<input type = "text" name = "last name" placeholder = "lastname" required><br />
+	<label for = "date">Date of birth<label><br />
+	<input type = "date" name = "date of birth" placeholder = "yyyy/mm/dd" required><br>
+	
+
+	<label>YOUR ZODIAC SIGN:</label><br />
+	<select name = "YOUR ZODIAC SIGN">
+		<option value = "Aries">Aries</option>
+		<option value = "Taurus">Taurus</option>
+		<option value = "Gemini">Gemini</option>
+		<option value = "Cancer">Cancer</option>
+		<option value = "Leo">Leo</option>
+		<option value = "Virgo">Virgo</option>
+		<option value = "Libra">Libra</option>
+		<option value = "Scorpio">Scorpio</option>
+		<option value = "Sagittarius">Sagittarius</option>
+		<option value = "Capricorn">Capricorn</option>
+		<option value = "Aquarius">Aquarius</option>
+		<option value = "Pisces">Pisces</option>
+	</select>	
+	<br>
+	<button type = "submit" id = "submitbtn">Submit</button>
+	<button type = "reset" id = "resetbtn">Reset</button>
+	</fieldset>
+	</form>
+</div>
+</body>
+	
+	
